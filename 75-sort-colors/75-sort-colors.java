@@ -1,5 +1,6 @@
 class Solution {
     public void sortColors(int[] nums) {
+        ArrayList<Integer> arr = new ArrayList<>();
         int n = nums.length;  
         int temp = 0;  
          for(int i=0; i < n; i++){  
@@ -14,8 +15,10 @@ class Solution {
         
     }
         for(int i=0; i<n; i++) {
-            System.out.print(nums[i] +" ");
+            arr.add(nums[i]);
+            
         }
+        System.out.print(arr);
 
     }
     

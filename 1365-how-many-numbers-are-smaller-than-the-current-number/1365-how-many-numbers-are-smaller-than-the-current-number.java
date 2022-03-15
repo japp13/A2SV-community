@@ -16,8 +16,6 @@ class Solution {
         }
         
         
-        
-  
 return countArray;
     }
 }
